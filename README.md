@@ -1,2 +1,2 @@
-# mikesTreeTrimming
-A frontend website for Mikes tree trimming compnay
+# Mike's Tree Trimmming
+A frontend web site for Mikes tree trimming compnay
