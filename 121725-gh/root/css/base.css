@@ -28,7 +28,7 @@ main {
     height: 100vh;
 }
 h1 {
-    font: 3.6rem var(--secondary-font);
+    font: 5rem var(--secondary-font);
     font-family: var(--header-base-font);
     line-height: .9em;
 }
