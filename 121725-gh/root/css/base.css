@@ -1,0 +1,69 @@
+/* css variables */
+:root {
+    --primary-clr-dark: #faf6e1;
+    --primary-clr-light: #a35414;
+    --accent-clr: #d1ac26;
+    --primary-font: Tahoma, sans-serif;
+    --secondary-font: Courier, monospaced;
+    --base-space: 10px;
+}
+
+/* page styles */
+html {
+    font-family: var(--primary-font);
+    background-color: var(--primary-clr-dark);
+    color: var(--primary-clr-light);
+    font-size: 10px;
+}
+header {
+    --header-base-font: fantasy, sans-serif;
+    border-bottom: solid 3px var(--primary-clr-light);
+    padding: var(--base-space);
+    margin-bottom: var(--base-space);
+    text-align: center;
+}
+main {
+   padding: var(--base-space);
+    max-width: 850px;
+    height: 100vh;
+}
+h1 {
+    font: 3.6rem var(--secondary-font);
+    font-family: var(--header-base-font);
+    line-height: .9em;
+}
+h2 {
+    font: 2.4em var(--secondary-font);
+    line-height: .8em;
+    margin-bottom: var(--base-space);
+}
+header h2 {
+    font-family: var(--header-base-font);
+}
+p {
+   font-size: 1.5em;
+    line-height: 1.4;
+}
+a {
+  color: var(--accent-clr); 
+  font-weight: bold;
+}
+a:hover {
+  color: var(--primary-clr-light);  
+}
+footer {
+    background-color: var(--primary-clr-light);
+    color: var(--primary-clr-dark);
+    padding: var(--base-space);
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
