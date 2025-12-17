@@ -28,9 +28,13 @@ main {
     height: 100vh;
 }
 h1 {
-    font: 5rem var(--secondary-font);
+    /*font: 5rem var(--secondary-font);*/
+    font: 4rem var(--secondary-font);
     font-family: var(--header-base-font);
     line-height: .9em;
+}
+#contact h1 {
+    font:5rem var(--secondary-font);
 }
 h2 {
     font: 2.4em var(--secondary-font);
@@ -50,6 +54,15 @@ a {
 }
 a:hover {
   color: var(--primary-clr-light);  
+}
+nav {
+    background-color: var(--primary-clr-light);
+    font-size: 2em;
+    padding: 2em;
+}
+nav ul {
+    display: flex;
+    gap: 1em;
 }
 footer {
     background-color: var(--primary-clr-light);
