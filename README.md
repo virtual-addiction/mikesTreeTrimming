@@ -1,3 +1,4 @@
 # Mike's Tree Trimmming
-A frontend web site for Mikes tree trimming compnay
+A front-end website for Mike's tree trimming company
+
 Hi from Penney!
